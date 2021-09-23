@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Networking with Dio - Flutter',
       theme: ThemeData(primarySwatch: Colors.teal),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(),
+      home: const HomeScreen(),
     );
   }
 }
