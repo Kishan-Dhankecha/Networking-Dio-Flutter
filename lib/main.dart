@@ -1,21 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home_screen.dart';
+import 'user_demo_app/app.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const UserDemoApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Networking with Dio - Flutter',
-      theme: ThemeData(primarySwatch: Colors.teal),
-      debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
-    );
-  }
-}
+/*
+  All App list:
+    1. UserDemoApp()
+*/

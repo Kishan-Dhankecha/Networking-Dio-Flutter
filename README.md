@@ -17,7 +17,11 @@ The functionalities of Dio showcased in this app are as follows:
 1. Install [Flutter](https://flutter.io)
 2. [Clone](https://github.com/Kishan-Dhankecha/Networking-Dio-Flutter.git) the
    repo
-3. Run `flutter run` (make sure to have an emulator running).
+3. Run `flutter pub get  && flutter pub run build_runner build`.
+4. To keep the code generator running in a server
+   `flutter pub run build_runner serve --delete-conflicting-outputs`
+> The `--delete-conflicting-outputs` flag helps to regenerate a part of the generated class if any conflicts are found.
+5. Run `flutter run` (make sure to have an emulator running).
 
 - For help getting started with Flutter, view our
   [online documentation](https://flutter.dev/docs), which offers tutorials,
